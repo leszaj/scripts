@@ -6,7 +6,6 @@ def solution(N):
     n = str(N)
 
     for i,d in enumerate(n):
-
         if d.isdigit():
             num_lst.append(int(n[:i] + '5' + n[i:]))
         else:
