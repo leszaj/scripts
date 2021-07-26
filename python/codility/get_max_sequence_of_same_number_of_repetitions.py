@@ -2,10 +2,12 @@
 import random
 
 def solution(X, Y, A):
+    # write your code in Python 3.6
     N = len(A)
     result = -1
     nX = 0
     nY = 0
+
     for i in range(N):
         if A[i] == X:
             nX += 1
@@ -13,6 +15,7 @@ def solution(X, Y, A):
             nY += 1
         if (0 != nX) and (nX == nY):
             result = i
+
     return result
 
 

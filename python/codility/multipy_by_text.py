@@ -5,7 +5,7 @@ def solution(D, S):
     s_num = {'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5}
 
     if s_num.get(S):
-        return D*s_num[S]
+        return D * s_num[S]
     else :
         return -1
 
